@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500&family=Manrope:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Halant:wght@500;600&family=Manrope:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 30px;
+    align-items: center;
+    background-color: #FFFFFF;
+    height: 50px;
+    
+}
+.logo{
+    font-size: xx-large;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 200;
+    color: #155EEF;
+
+}
+
+header nav li {
+    display: inline;
+    margin: 10px;
+}
+
+header nav li a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 4px;   
+}
+
+.active{
+    text-decoration: underline;
+}
+button{
+    cursor: pointer;
+    background-color: #FFFFFF;
+    padding: 10px 16px;
+    border: 1px solid #155EEF;
+    border-radius: 8px;
+}
+
+section{
+    width: 1440px;
+    height: 535px;
+    background-color: #000000;
+    color: #FFFFFF;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-items: center;
+}
+.kosyleft, p{
+    font-family: 'Halant', serif;
+    color: gray;
+}
+
+.kosyleft, h1{
+        color: #FFFFFF;
+        font-family: 'Halant', serif;
+        font-weight: bold;
+        line-height: 120%;
+        /* or 67px */
+        
+        
+        color: #FFFFFF;
+        
+}
+
+.kosyleft, h4{
+    color: gray;
+    font-family: 'Manrope', sans-serif;
+}
+
+.angeloright{
+    display: flex;
+    margin-right: 50px;
+}
+
+.paragraph{
+    margin-top: 20px;
+}
+
+.project{
+    margin-top: 20px;
+}
